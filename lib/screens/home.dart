@@ -222,7 +222,7 @@ class HomeState extends State<Home> {
       label: Text(
         label,
         style: const TextStyle(
-          fontSize: 18,
+          fontSize: 20,
         ),
       ),
       icon: Icon(Icons.egg, size: iconSize),
@@ -244,7 +244,13 @@ class HomeState extends State<Home> {
     return Scaffold(
       backgroundColor: bgColor,
       appBar: AppBar(
-        title: const Text('Select egg size:'),
+        title: const Text(
+          'Select egg:',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 24,
+          )
+        ),
         backgroundColor: accentColor,
         elevation: 0,
         actions: <Widget>[

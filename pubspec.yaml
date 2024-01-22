@@ -33,4 +33,7 @@ flutter:
   fonts:
     - family: Square
       fonts:
-        - asset: assets/fonts/square_sans.ttf
+        - asset: assets/fonts/Square-Sans.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
